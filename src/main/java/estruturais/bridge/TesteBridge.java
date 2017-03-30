@@ -12,7 +12,6 @@ public class TesteBridge {
 		for (int i = 0; i < geradorDeArquivos.size(); i++) {
 			new Recibo("NF-["+i+"]", new ReciboVO("JDBI{" + i + "} - Tecnologia da Informação",
 					"TEC Engenharia Ltda.", (1527.55 * (i + 10)) ), geradorDeArquivos.get(i)).gerarArquivo();
-		}	
-		
+		}		
 	}
 }	

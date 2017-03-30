@@ -1,4 +1,4 @@
-package patterns.util;
+package criacao.singleton;
 
 import com.google.gson.Gson;
 

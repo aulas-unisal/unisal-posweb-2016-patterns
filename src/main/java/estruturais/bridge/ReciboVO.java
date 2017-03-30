@@ -1,6 +1,6 @@
 package estruturais.bridge;
 
-import patterns.util.GsonSingleton;
+import criacao.singleton.GsonSingleton;
 
 public class ReciboVO {
 	
